@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: rgb(58, 56, 61);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1.2rem 0;
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.section-bienvenida__img {
+  width: 100%;
+  height: 60rem;
+}
+.section-bienvenida__h2 {
+  font-size: 2rem;
+}
+
+.section-felicitacion {
+  background-image: url(img/fiesta.jpg);
+  background-size: 1400px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.section-felicitacion > img {
+  width: 400px;
+}
+
+.section-felicitacion__div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10rem;
+}
+
+.section-felicitacion__div__h2 {
+  font-size: 3.4rem;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.section-felicitacion__div__p {
+  font-size: 2.4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.section-momentos {
+  background-image: url(img/motociclista.png);
+}
