@@ -114,12 +114,19 @@ footer > img {
 }
 
 @media (max-width: 700px) {
-
-  .section-bienvenida__img {
-
+  .section-felicitacion {
+    display: block;
   }
 
   .section-felicitacion > img {
-    width: 100px;
+    width: 250px;
+    display: block;
+    margin: auto;
   }
+
+  .section-copias-momos__galery__img {
+    width: 15rem;
+    margin: 0.5rem;
+  }
+
 }
