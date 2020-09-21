@@ -21,6 +21,7 @@ header {
   width: 100%;
   height: 60rem;
 }
+
 .section-bienvenida__h2 {
   font-size: 2rem;
 }
@@ -38,25 +39,76 @@ header {
   width: 400px;
 }
 
-.section-felicitacion__div {
+.section-felicitacion__div{
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 10rem;
 }
 
-.section-felicitacion__div__h2 {
+h2{
   font-size: 3.4rem;
   font-family: 'Bebas Neue', cursive;
   text-align: center;
 }
 
-.section-felicitacion__div__p {
+p {
   font-size: 2.4rem;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
 
 .section-momentos {
-  background-image: url(img/motociclista.png);
+  background-image: url(img/motociclistas.png);
+  background-size: 1400px;
+}
+
+.section-momentos__text {
+  padding: 4rem 10rem;
+}
+
+.section-momentos__galery {
+  text-align: center;
+}
+
+.section-momentos__galery-principal {
+  width: 20rem;
+  height: auto;
+}
+
+.section-copias-momos {
+  background-color: rgb(132, 205, 212);
+  color: white;
+}
+
+.section-copias-momos__title {
+  padding: 3rem;
+}
+
+.section-copias-momos__galery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  padding-top: 0;
+  justify-content: center;
+}
+.section-copias-momos__galery__img {
+  width: 25rem;
+  margin: 2rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: rgb(58, 56, 61);
+  color: white;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer > img {
+  position: absolute;
+  right: 0;
+  bottom: 100000;
 }
