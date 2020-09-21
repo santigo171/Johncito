@@ -112,3 +112,14 @@ footer > img {
   right: 0;
   bottom: 100000;
 }
+
+@media (max-width: 700px) {
+
+  .section-bienvenida__img {
+
+  }
+
+  .section-felicitacion > img {
+    width: 100px;
+  }
+}
